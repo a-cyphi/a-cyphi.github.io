@@ -1,0 +1,105 @@
+features and formatting
+
+index:
+- name
+- short bio/desc of self
+- list of current classes
+  - link to course web page w/ relative urls 
+- 3 fav of something
+  - ext link to cool site
+- 2 pics or intro video
+- table
+- at least 10 html tags
+
+course web page:
+- page that describes current/past courses
+- highlight noteworthy assignments/projects
+
+Adaptable and Efficient computer science student with a firm understanding of data 
+algorithms and coding fundamentals. Known to effectively communicate and collaborate within diverse 
+team settings. Proven abilities using a variety of programming languages and software.
+
+[about]
+
+hello! my name is audi, and I am currently a senior in computer science at wayne state university. 
+growing up, i always knew i liked math and computers, so when it came time to decide what path i 
+would take, the choice was obvious. i have dedicated the past three years to learning the principles
+in software engineering, and in that time i have gained expeirence with: 
+  (tabs/sections) languages       web dev      project tools 
+  python, c/pp/#, java, js        so on so on
+c python java js sql              html css react node.js        git/github azuredevops (nxCAD)
+icons from icons8.com 
+
+
+[get to know me!]
+
+like most people, i have many interests i like to satisfy outside of school and work. here are 
+some of the things i put most of my time into: 
+
+interests 
+hackathons: i attended spartahack three years in a row, and even ended up on the msu news site AND in their
+yearbook (picture with "thats me!" other pic with "me again!"). 
+languages: talk about being involved in other cultures and proposal for capstone
+friends/family: talk about going out with ff and places we've been. diverse friend group, making me open minded.
+traveling a lot, again, openminded
+
+-------------------------------------------------------------------------------------------------------------
+
+msu news https://statenews.com/article/2024/01/creative-tech-based-projects-shine-through-at-ninth-annual-spartahack?ct=content_open&cv=cbox_latest 
+https://bit.ly/4gFoGZa
+wayne courses https://bulletins.wayne.edu/courses/csc/ 
+korean culture photo ref https://www.koreanculture.org/korea-information-culture-and-the-arts
+res repo https://github.com/ericbrown379/Resonance-Tune-Your-Mind 
+nos repo https://github.com/WSU-4110/Nostalgify/tree/main
+tabbi repo https://github.com/a-cyphi/spartahack/tree/main
+fluint repo https://github.com/arriolajp/fluint
+
+-------------------------------------------------------------------------------------------------------------
+courses and projects
+
+[courses]
+
+these skills are curretly being put to work with this semesters classes. as it is my final semester,
+i am taking my senior capstone along with web tech and mobile app dev to bring a rounded end to my 
+time here. 
+
+here are some of the highlights of my academic career: the courses i learned the most from in terms 
+of practicality and usability. feel free to reference [the course catalogue] for more information about 
+each class. 
+current courses: 
+capstone
+web tech
+mobile app 
+capstone: the culmination of my academic career, capstone is a class that challenges me every step of
+the way. here, we focus on the foundations of being a software engineer. this includes documentation, 
+design, organization, structure, and perspective. working in a group of four, we meet constantly to 
+review what work is in progress, blockers, and how to address issues moving forward. *
+
+web tech: this is a second step course, following web dev which covered the very basics of website design.
+here, i will be producing a handful of personal project while also contributing to a group term project*
+by the end of this semester, i will have the skills to create static and dynamic content, implement 
+security techniques, and hadnle electronic commerce on the web. but thats not all! 
+
+mobile app dev: a class that i have been wanting to take since it was annoucned. i would like to find
+my way into mobile dev, and with this course, i can learn all of the primary elemnts of Anroid application
+development along with its best practices. i will be completing projects highlighting the different features
+that can be made possible using android studio and java. 
+
+past courses: 
+(notable)
+introduction to databases -- basics of backend development and database architecture
+introduction to theoretical computer science -- finite state machines, grammars, and formal language theory
+computer operating systems -- low-level programming using C , understanding system-level operations
+software engineering -- project planning and developmenet using the agile methodology in a collaborative team envirionment
+game programming and design 1 -- game vedelopment fundamentals with unity, including mechanics and design principles 
+architecture 
+
+[projects]
+
+projects: 
+  - capstone
+  - nostalgify
+  - tradecircle
+  - tabbi and fluint for concepts and leadership demonstration 
+
+  Nostalgify is a mobile app that lets users capture and organize photos tied to their favorite Spotify songs, playlists, and artists—preserving memories through music. Users can sign in with Spotify, view currently playing tracks, save photos by song, explore their library, and customize themes via the profile page.

@@ -1,0 +1,24 @@
+:root {
+    /*Colors*/
+    --color-home-text: "#ff87b2"; 
+    --color-home-header: "#baafff";
+    --color-home-highlight: "#a2d2ff";
+    --color-home-light-accent: "#ffafcc";
+    --color-home-bg: "#fff6f9";
+
+    --color-course-text: "#70baff";
+    --color-course-header: "9081f3";
+    --color-course-highlight: "#ffafcc";
+    --color-course-light-accent: "#bde0fe";
+    --color-course-bg: "#f0f8ff";
+
+    --color-title-blue: "#a2d2ff";
+    --color-title-white: "#fff";
+    --color-title-purple: "#baafff";
+    --color-title-pink: "#ffafcc";
+
+    /*Fonts*/
+    --font-poppins: "Poppins";
+    --font-sonsie: "Sonsie One";
+    --font-bai: "Bai Jamjuree";
+}

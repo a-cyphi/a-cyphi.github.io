@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="courseStyles.css">
+</head>
+
+<body>
+  <section id="nav">
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+      </div>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+
+  </section>
+  <section id="courses">
+    <div id="header-image">
+      <img src="photos/courses.png" alt="Coruses">
+    </div>
+    <div id="text">
+      <p>
+        Here are some of the highlights of my time at Wayne, courses that
+        taught me the most in terms of practicality and usability. Feel free
+        to reference the course catalog for more information about each class.
+      </p>
+    </div>
+
+
+    <h2>Senior Capstone</h2>
+    <div id="course-sections">
+      <img src="photos/lines.png" alt="line detail">
+      <p>
+        The culmination of my academic career, Capstone is a class that challenges
+        me at every turn. Here, we focus on the foundations of being a Software Engineer.
+        This includes documentation, design, organization, structure, and perspective.
+        Working with my team of four, we meet constantly to review what work is in progress,
+        what blockers we may be facing, and how to address issues moving forward.
+      </p>
+    </div>
+    <h2>Principles of Web Technology</h2>
+    <div id="course-sections">
+      <img src="photos/lines.png" alt="line detail">
+      <p>
+        This is a second step course, following its introduction class covering the basics
+        of web design. Here, I will be producing a handful of personal projects while also
+        contributing to a group term project. By the end of this semester, I will have the
+        skills to create static and dynamic content, implement security techniques, and
+        handle electronic commerce on the web.
+      </p>
+    </div>
+
+    <h2>Mobile App Development</h2>
+    <div id="course-sections">
+      <img src="photos/lines.png" alt="line detail">
+      <p>
+        A class that also yields many projects and experience in terms of deployment. This
+        course covers all of the primary elements of Android application development along
+        with its best practices. These projects I will be completing highlight the different
+        features that can be made possible using Android Studio and Java.
+      </p>
+    </div>
+
+    <h2>Other Notable Courses</h2>
+    <table border="1" cellspacing="0" cellpadding="10"
+      style="width: 100%; text-align: left; border-collapse: collapse;">
+      <thead>
+        <tr>
+          <th>Course</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Introduction to Databases</td>
+          <td>Basics of backend development and database architecture</td>
+        </tr>
+        <tr>
+          <td>Introduction to Theoretical Computer Science</td>
+          <td>Finite state machines, grammars, and formal language theory</td>
+        </tr>
+        <tr>
+          <td>Computer Operating Systems</td>
+          <td>Low-level programming using C, understanding system-level operations</td>
+        </tr>
+        <tr>
+          <td>Software Engineering</td>
+          <td>Project planning and development using the Agile methodology in a collaborative team environment</td>
+        </tr>
+        <tr>
+          <td>Game Programming and Design I</td>
+          <td>Game development fundamentals with Unity, including mechanics and design principles</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section id="projects">
+    <div id="header-image">
+      <img src="photos/projects.png" alt="Projects">
+    </div>
+
+    <h2>Resonance: Tune Your Mind</h2>
+    <p>
+      A music emotion recognition app designed to personalize your listening
+      experience through advanced audio analysis and user emotional profiles—tune
+      your mind with Resonance!
+    </p>
+
+    <div id="repo-link">
+      <img src="photos/git.png" alt="Github Logo">
+      <p><a href="https://github.com/ericbrown379/Resonance-Tune-Your-Mind">Here's a link to our repo!</a></p>
+    </div>
+
+    <div id="screenshots-line">
+      <img src="photos/res-login.png" alt="Resonance Login">
+      <img src="photos/res-dashboard.png" alt="Resonance Dashboard">
+      <img src="photos/res-profile.png" alt="Resonance Profile">
+      <img src="photos/res-playlist.png" alt="Resonance Playlist">
+    </div>
+
+    <p><i>Design mock ups using Figma, created by my partner UI lead and I.</i></p>
+    <img src="photos/divider.png" alt="Divider">
+    <h2>Nostalgify</h2>
+    <p>
+      Nostalgify is a mobile app that lets users capture and organize photos tied to
+      their favorite Spotify songs, playlists, and artists—preserving memories through
+      music. Users can sign in with Spotify, view currently playing tracks, save
+      photos by song, explore their library, and customize themes via the profile page.
+    </p>
+
+    <div id="repo-link">
+      <img src="photos/git.png" alt="Github Logo">
+      <p> <a href="https://github.com/WSU-4110/Nostalgify">Here's a link to our repo!</a></p>
+    </div>
+
+    <div id="screenshots-line">
+      <img src="photos/nos-home.png" alt="Nostalgify Home">
+      <img src="photos/nos-song.png" alt="Nostalgify Song Screen">
+      <img src="photos/nos-lib.png" alt="Nostalgify Library">
+      <img src="photos/nos-prof.png" alt="Nostalgify Profile">
+    </div>
+
+    <p><i>Final product screenshots, profile page done by me. </i></p>
+    <img src="photos/divider.png" alt="Divider">
+
+
+    <h2>Hacks - Tabbi!</h2>
+    <div class="row-left">
+      <div class="text">
+        <p>Tabbi! is a gamefied productivity app that encourages users to work
+          under the incentive of providing a nice, lavish life for their newfound
+          Tabby cat. Ideally, users would be able to gain money by setting timers,
+          increasing productivity in real life, and use their funds to purchase
+          upgrades for their cat. </p>
+      </div>
+      <div class="image">
+        <img src="photos/logo.png" alt="Tabbi Logo">
+        <img src="photos/tab.png" alt="Tabbi Resting">
+        <img src="photos/tabbiwalkin.png" alt="Tabbi Stretching">
+      </div>
+    </div>
+
+    <div class="row-right">
+      <div class="image">
+        <img src="photos/rocco.png" alt="Rocco">
+        <img src="photos/working.png" alt="Working Loading Screen">
+      </div>
+      <div class="text">
+        <p>The final product would also allow for users to add friends, letting
+          them foster a bigger work environment so they can end their shifts with
+          more coins! They would even get a tutorial from a street cat that
+          never got a home: Rocco. While this project has been put on the back
+          burner, this is definitely something I aim to fully flesh out after graduation. </p>
+      </div>
+    </div>
+    <p><i>I provided the prompt, lead the team, and helped with art on this one! </i></p>
+    <img src="photos/divider.png" alt="Divider">
+
+    <h2>Hacks - Flu-Int</h2>
+    <div class="row-right">
+      <div class="image">
+        <img src="photos/fluint-home.png" alt="Flu-int Home">
+      </div>
+      <div class="text">
+        <p>Flu-Int is an all-in-one study tool for language learners using the Language
+          Acquisition method. This follows the philosophy that adults can learn languages
+          more effectively by taking the same approach that babies do, but making it
+          more efficient! While babies have no concept of what study and repetition is,
+          adults do. </p>
+      </div>
+    </div>
+    <div class="row-right">
+      <div class="image">
+        <img src="photos/fluint-chat.png" alt="Flu-int Chat">
+      </div>
+      <div class="text">
+        <p>The main goal with this app is to incorporate the most important aspects of
+          language learning in one place. Our key points were immersion, repetition, and
+          feedback. We aim to not only provide a place with effective study tools, but
+          also bring together learners and natives alike. </p>
+      </div>
+    </div>
+    <p><i>I provided the prompt, figma mock ups, and the frontend code for this project. </i></p>
+
+  </section>
+
+
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section id="nav">
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+      </div>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+
+  </section>
+
+  <!-- About Section -->
+  <div id="header-image">
+    <img src="photos/about.png" alt="About">
+  </div>
+
+  <section id="about">
+
+    <div class="row-left">
+      <div class="text">
+        <p>
+          Hello! My name is Audi, and I am currently a Senior in Computer Science
+          at Wayne State University. My passion for math and computers has naturally
+          led me to where I am today. Over the past three years, I've dedicated
+          myself to learning the principles of Software Engineering. Take a look at what
+          I have experience with!
+        </p>
+      </div>
+      <div class="image">
+        <img src="photos/bumblebee.jpg" alt="Personal Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack Section -->
+  <h2>Tech Stack</h2>
+  <section id="tech-stack">
+
+    <div class="tech-icons">
+      <img src="photos/html.png" alt="HTML5">
+      <p>HTML5</p>
+    </div>
+    <div class="tech-icons">
+      <img src="photos/css.png" alt="CSS3">
+      <p>CSS</p>
+    </div>
+    <div class="tech-icons">
+      <img src="photos/react.png" alt="React">
+      <p>React</p>
+    </div>
+    <div class="tech-icons">
+      <img src="photos/node.png" alt="Node.js">
+      <p>Node.js</p>
+    </div>
+    <div class="tech-icons">
+      <img src="photos/git.png" alt="Git">
+      <p>Git/GitHub</p>
+    </div>
+    <div class="tech-icons">
+      <img src="photos/azure.png" alt="Azure DevOps">
+      <p>Azure DevOps</p>
+    </div>
+
+    <div class="tech-icons">
+      <img src="photos/python.png" alt="Python">
+      <p>Python</p>
+    </div>
+    <div class="tech-icons">
+      <img src="photos/java.png" alt="Java">
+      <p>Java</p>
+    </div>
+    <div class="tech-icons">
+      <img src="photos/js.png" alt="JavaScript">
+      <p>JavaScript</p>
+    </div>
+    <div class="tech-icons">
+      <img src="photos/sql.png" alt="SQL">
+      <p>SQL</p>
+    </div>
+  </section>
+
+  <!-- Know Me Section -->
+  <div id="header2-image">
+    <img src="photos/get-to-know.png" alt="Get to Know Me">
+  </div>
+  <section id="know-me">
+
+    <p>
+      Like most people, I have many interests I like to satisfy outside of school and work.
+      Here are some of the things I put most of my time into. </p>
+    <div id="home-info">
+      <h3>Hackathons</h3>
+
+      <div class="row-left">
+        <div class="text">
+          <p>I have attended SpartaHack all three years spent at Wayne, and each
+            one was an entirely new experience. I had the opportunity to lead a
+            team of four for the past two years. We even made it to the frontline
+            s of <a href="https://bit.ly/4gFoGZa">MSU News</a> AND their yearbook!.</p>
+        </div>
+        <div class="image">
+          <img src="photos/sparta-table.png" alt="SpartaHack">
+        </div>
+      </div>
+
+      <div class="row-right">
+        <div class="image">
+          <img src="photos/msu yearbook.jpg" alt="MSU Yearbook Feature">
+        </div>
+        <div class="text">
+          <p>Although this was a hobby of mine, I can confidently say I have gained
+            valuable knowledge in both leadership and communication. </p>
+        </div>
+      </div>
+
+      <img src="photos/home-div.png" alt="divider">
+      <h3>Languages</h3>
+      <div class="row-right">
+        <p>
+          Something I have always been interested in as the ultimate form of
+          communication: languages. I believe language learning is the first step
+          in understanding someone’s culture and motives. </p>
+        <img src="photos/culture.jpg" alt="Cultural Immersion">
+      </div>
+      <div class="row-left">
+        <img src="photos/goblin.jpg" alt="Language Hack Project">
+        <p>
+          Part of my learning approach has been based around the Language Acquisition
+          philosophy. This makes any type of content consumption helpful, if done in
+          a meaningful way. This was even the proposal of our hack at the most recent
+          SpartaHack! <a href="courses.html">Click here</a> to see our project design for it. .
+        </p>
+      </div>
+      <img src="photos/home-div.png" alt="divider">
+
+      <h3>Travel</h3>
+      <div class="row-left">
+        <img src="photos/bumblebee.jpg" alt="Travel Adventures">
+        <p>
+          I have always been open to new cultures, but only recently have I have the
+          opportunity to start traveling. These are from more recent trips I have
+          taken with friends. We have been visiting different landmarks around Michigan
+          for the past few years.
+        </p>
+      </div>
+      <div class="row-right">
+        <p>
+          These trips have allowed me to meet so many new people and gain some perspective
+          in life. It is very interesting to see new sights one day and come home with
+          fresh eyes the next. </p>
+        <img src="photos/holland.jpg" alt="Travel Photo">
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
